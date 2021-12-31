@@ -1,15 +1,86 @@
-Documents/*
-Downloads/*
-Personal_Dev/*
-Misc/*
-Personal_Dev/*
-Synauta/*
-.Xauthority
+Handy Gitignore that I took from:
+https://github.com/bitprophet/dotfiles/blob/main/.gitignore
+
+# Ignore everything by default.
+*
+
+# Bash stuff (profile just sources bashrc, since it's the only thing sourced
+# when a shell is a login shell).
+!.bash*
+.*.swp
 .bash_history
-.cache/*
-.kde4/*
-.local/*
-.mozilla/*
-.ssh/*
-.zcompdump-*
-todo.txt
+.bash_local
+.bash_logout
+!.profile
+
+# Zsh
+!.zshrc
+!.zsh
+!.zsh/*
+!.zsh/contrib
+!.zsh/contrib/*
+# Do ignore the data directory (my construct, it's where completion cache,
+# history etc live)
+.zsh/data
+.zsh/data/*
+# Do ignore local/sensitive settings
+.zsh/*local
+# Swapfiles (sigh)
+.zsh/*.swp
+
+# Git aliases, identification info
+!.gitconfig
+# The gitignore of this repository itself (!)
+!.gitignore
+# My global Git excludes file (acts as a global .gitignore)
+!.gitexcludes
+
+
+# Vim plugins, ftplugins, syntax etc etc
+!.vim
+!.vim/*
+!.vim/*/*
+!.vim/*/*/*
+!.vim/*/*/*/*
+!.vim/*/*/*/*/*
+!.vim/*/*/*/*/*/*
+# Do ignore netrw history
+.vim/.netrwhist
+# Do ignore vim-plug stuff, sigh
+.vim/plugged
+# Vim settings
+!.vimrc
+# Ignore swapfiles
+.vim/.*.swp
+.vim/*/.*.swp
+.vim/*/*/.*.swp
+.vim/*/*/*/.*.swp
+
+# Local copies of tools/scripts
+!bin
+!bin/*
+bin/.*.swp
+
+# All the theming that took me a while to figure out
+!.config/alacritty
+!.config/spicetify
+!.config/sway/*
+!.config/waybar/*
+!.config/wofi/*
+
+# old file that still might be useful
+#Documents/*
+#Downloads/*
+#Personal_Dev/*
+#Misc/*
+#Personal_Dev/*
+#Synauta/*
+#.Xauthority
+##.bash_history
+#.cache/*
+#.kde4/*
+#.local/*
+#.mozilla/*
+#.ssh/*
+#.zcompdump-*
+#todo.txt
