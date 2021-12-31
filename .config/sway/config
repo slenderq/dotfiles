@@ -5,7 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 #
 
-font pango: Open Code Pro Medium 10
+font Open Code Pro Medium 10
 
 default_border none
 
