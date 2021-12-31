@@ -62,6 +62,7 @@ https://github.com/bitprophet/dotfiles/blob/main/.gitignore
 bin/.*.swp
 
 # All the theming that took me a while to figure out
+!.config
 !.config/alacritty
 !.config/spicetify
 !.config/sway/*
