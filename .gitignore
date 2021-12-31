@@ -64,7 +64,7 @@ bin/.*.swp
 # get rid of everything else
 !.config/alacritty
 !.config/spicetify
-!.config/spicetify/*
+!.config/spicetify/*/*
 !.config/sway
 !.config/sway/*
 !.config/waybar
