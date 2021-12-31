@@ -1,5 +1,5 @@
-Handy Gitignore that I took from:
-https://github.com/bitprophet/dotfiles/blob/main/.gitignore
+#Handy Gitignore that I took from:
+#https://github.com/bitprophet/dotfiles/blob/main/.gitignore
 
 # Ignore everything by default.
 *
@@ -32,8 +32,6 @@ https://github.com/bitprophet/dotfiles/blob/main/.gitignore
 !.gitconfig
 # The gitignore of this repository itself (!)
 !.gitignore
-# My global Git excludes file (acts as a global .gitignore)
-!.gitexcludes
 
 
 # Vim plugins, ftplugins, syntax etc etc
@@ -64,7 +62,7 @@ bin/.*.swp
 # All the theming that took me a while to figure out
 !.config
 !.config/alacritty
-!.config/spicetify
+!.config/spicetify/*
 !.config/sway/*
 !.config/waybar/*
 !.config/wofi/*
