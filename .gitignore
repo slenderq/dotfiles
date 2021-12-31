@@ -4,8 +4,8 @@ Personal_Dev/*
 Misc/*
 Personal_Dev/*
 Synauta/*
-.Xauthority/*
-.bash_history/*
+.Xauthority
+.bash_history
 .cache/*
 .kde4/*
 .local/*
