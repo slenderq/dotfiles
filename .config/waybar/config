@@ -92,7 +92,7 @@
 	"cpu": {
 		"interval": 5,
 		"tooltip": false,
-		"format": " {usage}%", // Icon: microchip
+		"format": "CPU: {usage}%", // Icon: microchip
 		"states": {
 		  "warning": 70,
 		  "critical": 90
@@ -107,7 +107,7 @@
 
 	"memory": {
 		"interval": 5,
-		"format": " {}%", // Icon: memory
+		"format": "MEM: {}%", // Icon: memory
 		"states": {
 			"warning": 70,
 			"critical": 90
@@ -117,9 +117,9 @@
 	"network": {
 		"interval": 5,
 		// TODO: format-icons
-		"format-wifi": " {essid} ({signalStrength}%)", // Icon: wifi
-		//"format-ethernet": " {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
-		"format-ethernet": " {ifname}",
+		//"format-wifi": " {essid} ({signalStrength}%)", // Icon: wifi
+		"format-ethernet": " {ifname}: {ipaddr}/{cidr}", // Icon: ethernet
+		//"format-ethernet": " {ifname}",
 		"format-disconnected": "",
 		//"tooltip-format": "{ifname}: {ipaddr}",
 		"tooltip": false
@@ -174,14 +174,14 @@
 		"critical-threshold": 90,
 		"interval": 5,
 		//"format": "{icon} {temperatureC}°C",
-		"format": "{icon} {temperatureC}°",
-		"format-icons": [
-			"", // Icon: temperature-empty
-			//"", // Icon: temperature-quarter
-			"", // Icon: temperature-half
-			//"", // Icon: temperature-three-quarters
-			""  // Icon: temperature-full
-		],
+		"format": "TEMP: {temperatureC}°",
+		//"format-icons": [
+		//	"", // Icon: temperature-empty
+		//	//"", // Icon: temperature-quarter
+		//	"", // Icon: temperature-half
+		//	//"", // Icon: temperature-three-quarters
+		//	""  // Icon: temperature-full
+		//],
 		"tooltip": false
 	},
 
