@@ -6,6 +6,8 @@
 
 background_opacity: 0.80
 
+scale_with_dpi: true
+
 # Live config reload
 live_config_reload: true
 
