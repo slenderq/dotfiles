@@ -7,6 +7,7 @@
 
 font Open Code Pro Medium 10
 
+### Boarders
 #default_border none
 default_border pixel 2
 
@@ -20,6 +21,9 @@ gaps top 5
 client.focused #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2
 client.unfocused #282828 #282828 #282828 #282828 #282828
 client.focused_inactive  #282828 #282828 #282828 #282828 #282828
+
+# Wayland dectection
+for_window [shell=".*"] title_format "%title :: %shell"
 
 ### Variables
 #
