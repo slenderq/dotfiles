@@ -41,7 +41,11 @@ set $menu wofi -Ii --lines=10 --show=drun
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Downloads/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg  fill
+#output * bg ~/Downloads/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg  fill
+#output * bg ~/Downloads/melt.jpg fill
+#output * bg ~/Downloads/fall.jpg fill
+output HDMI-A-1 bg ~/Downloads/tex.jpg fill
+output DP-2 bg ~/Downloads/tex2.jpg fill
 #
 # Example configuration:
 #
