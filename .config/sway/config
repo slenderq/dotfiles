@@ -24,7 +24,7 @@ set $term alacritty
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 #set $menu dmenu_path | dmenu | xargs swaymsg exec wofi
-set $menu wofi -Ii --lines=10 --show run
+set $menu wofi -Ii --lines=10 --show=drun
 
 ### Output configuration
 #
@@ -41,7 +41,7 @@ output * bg ~/Downloads/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg  fill
 
 # HiDPI
 #output HDMI-A-1 scale 1
-#output DP-2 scale 1.3
+output DP-2 scale 2
 
 ### Idle configuration
 #
@@ -247,5 +247,7 @@ bar {
 exec wl-paste -t text --watch clipman store --no-persist
 
 exec mako
+
+
 include /etc/sway/config.d/*
 
