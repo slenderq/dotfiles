@@ -63,8 +63,9 @@
 @define-color warning #fabd2f;
 @define-color critical #cc241d;
 @define-color mode #a89984;
-@define-color workspaces #458588;
-@define-color workspacesfocused #83a598;
+@define-color workspaces #282828;
+/*@define-color workspacesfocused #83a598;*/
+@define-color workspacesfocused #ebdbb2;
 @define-color sound #d3869b;
 @define-color network #b16286;
 @define-color memory #8ec07c;
@@ -165,11 +166,12 @@
 	/*font-weight: bold;*/
 	padding-left: 4px;
 	padding-right: 4px;
-	color: @dark;
+	color: @light;
 	background: @workspaces;
 }
 
 #workspaces button.focused {
+	color: @dark;
 	background: @workspacesfocused;
 }
 
