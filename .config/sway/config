@@ -48,7 +48,7 @@ set $menu wofi -Ii --lines=10 --show=drun
 #output * bg ~/Downloads/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg  fill
 #output * bg ~/Downloads/melt.jpg fill
 #output * bg ~/Downloads/fall.jpg fill
-output HDMI-A-1 bg ~/Downloads/tex.jpg fill
+output HDMI-A-1 bg ~/Downloads/fall.jpg fill
 output DP-2 bg ~/Downloads/tex2.jpg fill
 #
 # Example configuration:

@@ -148,5 +148,4 @@ alias ppip='python3 -m pip'
 alias utest='python3 -m unittest -c'
 alias utestd='python3 -m unittest discover -c'
 
-alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland'
 # Created by newuser for 5.8
