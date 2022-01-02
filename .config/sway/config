@@ -11,10 +11,10 @@ font Open Code Pro Medium 10
 default_border pixel 2
 
 smart_gaps on
-gaps inner 3
-gaps outer -3
-gaps bottom 3
-gaps top 3
+gaps inner 5
+gaps outer -5
+gaps bottom 5
+gaps top 5
 
 
 client.focused #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2
