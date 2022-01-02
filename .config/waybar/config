@@ -39,9 +39,10 @@
 		"cpu",
 		"custom/arrow5",
 		"temperature",
-		"custom/arrow6",
-		"sway/language",
 		"custom/arrow7",
+		//"custom/arrow6",
+		"disk",
+		//"sway/language",
 		//"battery",
 		"custom/day",
 		"custom/arrow8",
@@ -97,6 +98,10 @@
 		  "warning": 70,
 		  "critical": 90
 		}
+	},
+	"disk": {
+		"format": " DISK: {free} "
+
 	},
 
 	"sway/language": {

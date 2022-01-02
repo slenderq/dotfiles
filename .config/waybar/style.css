@@ -72,6 +72,7 @@
 @define-color temp #b8bb26;
 @define-color layout #689d6a;
 @define-color battery #fabd2f;
+@define-color disk #fabd2f;
 @define-color date #282828;
 @define-color time #ebdbb2;
 
@@ -214,6 +215,11 @@
 	color: @light;
 }
 
+#disk {
+	background: @disk;
+	color: @dark;
+}
+
 #battery {
 	background: @battery;
 	color: @dark;
@@ -276,7 +282,7 @@
 #custom-arrow7 {
 	font-size: 16px;
 	color: @battery;
-	background: @layout;
+	background: @temp;
 }
 
 #custom-arrow8 {
