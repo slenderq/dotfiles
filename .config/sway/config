@@ -7,7 +7,19 @@
 
 font Open Code Pro Medium 10
 
-default_border none
+#default_border none
+default_border pixel 2
+
+smart_gaps on
+gaps inner 3
+gaps outer -3
+gaps bottom 3
+gaps top 3
+
+
+client.focused #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2 #ebdbb2
+client.unfocused #282828 #282828 #282828 #282828 #282828
+client.focused_inactive  #282828 #282828 #282828 #282828 #282828
 
 ### Variables
 #
