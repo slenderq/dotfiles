@@ -75,7 +75,7 @@
 	},
 
 	"clock#time": {
-		"timezone": "UTC",
+		//"timezone": "",
 		"interval": 10,
 		"format": "{:%I:%M %p}",
 		"tooltip": false
@@ -83,7 +83,7 @@
 
 
 	"clock#date": {
-		"timezone": "UTC",
+		//"timezone": "UTC",
 		"interval": 20,
 		"format": "{:%A %Y-%m-%d }", // Icon: calendar-alt
 		//"tooltip-format": "{:%e %B %Y}"
