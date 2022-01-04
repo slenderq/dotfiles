@@ -268,7 +268,7 @@ exec wl-paste -t text --watch clipman store --no-persist
 
 exec mako
 
-systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
 include /etc/sway/config.d/*
 
