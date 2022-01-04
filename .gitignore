@@ -15,6 +15,7 @@
 
 # Zsh
 !.zshrc
+!.zprofile
 !.zsh
 !.zsh/*
 !.zsh/contrib
