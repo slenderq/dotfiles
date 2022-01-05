@@ -240,11 +240,12 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
-#bar {
+# Screenshots
+#bindsym $super+p       exec shotman active
+bindsym $mod+q exec shotman area
+#bindsym $super+$alt+p  exec shotman output
+#bindsym $super+Ctrl+p  exec shotman window
+
     #position top
 
     # When the status_command prints a new line to stdout, swaybar updates.
@@ -257,6 +258,10 @@ bindsym $mod+r mode "resize"
         #inactive_workspace #32323200 #32323200 #5c5c5c
     #}
 #}
+
+# floating window exececptions
+# for_window [title="Firefox - Sharing Indicator"] move position 30 30, floating enable
+
 
 
 bar {
