@@ -5,5 +5,5 @@ export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CURRENT_DESKTOP=sway
 
 if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
-  exec sway
+  exec sway > ~/Misc/sway.log 2>&1
 fi
