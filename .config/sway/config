@@ -250,6 +250,9 @@ bindsym $mod+q exec shotman area
 #bindsym $super+$alt+p  exec shotman output
 #bindsym $super+Ctrl+p  exec shotman window
 
+# Mako shortcuts
+bindsym $mod+c exec makoctl dismiss
+
     #position top
 
     # When the status_command prints a new line to stdout, swaybar updates.
