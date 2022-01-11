@@ -50,6 +50,10 @@ set $menu wofi -Ii --lines=10 --show=drun
 #output * bg ~/Downloads/fall.jpg fill
 output HDMI-A-1 bg ~/Downloads/fall.jpg fill
 output DP-2 bg ~/Downloads/tex2.jpg fill
+
+workspace 6 output HDMI-A-1 
+workspace 1 output DP-2 
+focus output DP-2
 #
 # Example configuration:
 #
@@ -102,7 +106,7 @@ output DP-2 scale 2
     # Kill focused window
     bindsym $mod+x kill
 
-    # Start your launcher
+    #Start your launcher
     bindsym $mod+d exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
@@ -262,18 +266,19 @@ bindsym $mod+q exec shotman area
 # floating window exececptions
 # for_window [title="Firefox - Sharing Indicator"] move position 30 30, floating enable
 
-
-
 bar {
     swaybar_command waybar
 }
 
 # enable the clipboard
-exec wl-paste -t text --watch clipman store --no-persist
+exec wl-paste -t text --watch clipman store 
+exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 
 exec mako
 
 exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+
+
 
 include /etc/sway/config.d/*
 
