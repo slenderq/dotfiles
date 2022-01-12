@@ -5,7 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 #
 
-font Open Code Pro Medium 10
+font Office Code Pro Medium 10
 
 ### Boarders
 #default_border none
