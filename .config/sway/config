@@ -100,6 +100,8 @@ output DP-2 scale 2
 #
     # Start a terminal
     bindsym $mod+t exec $term
+
+    bindsym $mod+g exec firefox
     
     #bindsym $mod+f exec firefox
 
