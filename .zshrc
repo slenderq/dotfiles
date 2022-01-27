@@ -148,6 +148,8 @@ alias ppip='python3 -m pip'
 alias utest='python3 -m unittest -c'
 alias utestd='python3 -m unittest discover -c'
 
+alias kc='kubectl'
+
 # Created by newuser for 5.8
 
 # The next line updates PATH for the Google Cloud SDK.
