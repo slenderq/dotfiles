@@ -281,9 +281,10 @@ exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/cli
 
 exec mako
 
+# Get rid of hdmi audio
+exec pactl unload-module 8
+
 exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
-
-
 
 include /etc/sway/config.d/*
 
