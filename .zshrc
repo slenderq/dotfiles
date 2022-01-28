@@ -149,6 +149,7 @@ alias utest='python3 -m unittest -c'
 alias utestd='python3 -m unittest discover -c'
 
 alias kc='kubectl'
+alias kx='kubectx'
 
 # Created by newuser for 5.8
 
