@@ -158,3 +158,5 @@ if [ -f '/home/justin/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/justin/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/justin/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+pulseaudio --kill
