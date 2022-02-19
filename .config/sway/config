@@ -51,8 +51,11 @@ set $menu wofi -Ii --lines=10 --show=drun
 output HDMI-A-1 bg ~/Downloads/fall.jpg fill
 output DP-2 bg ~/Downloads/tex2.jpg fill
 
-workspace 6 output HDMI-A-1 
+output DP-2 position 0,0
+# output HDMI-A-1 position 
+
 workspace 1 output DP-2 
+workspace 6 output HDMI-A-1 
 focus output DP-2
 #
 # Example configuration:
