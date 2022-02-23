@@ -151,6 +151,8 @@ alias utestd='python3 -m unittest discover -c'
 alias kc='kubectl'
 alias kx='kubectx'
 
+alias bc='bc -l'
+
 # Created by newuser for 5.8
 
 # The next line updates PATH for the Google Cloud SDK.
