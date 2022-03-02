@@ -1,6 +1,7 @@
 autocmd VimEnter * hi Normal ctermbg=none
 let g:gruvbox_transparent_bg = '1'
 colorscheme gruvbox
+set t_Co=256
 set background=dark 
 
 :imap jk <Esc>
