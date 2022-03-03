@@ -153,6 +153,7 @@ alias kx='kubectx'
 
 alias bc='bc -l'
 
+alias ssh='TERM=xterm-256color ssh'
 # Created by newuser for 5.8
 
 # The next line updates PATH for the Google Cloud SDK.
