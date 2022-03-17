@@ -289,5 +289,9 @@ exec pactl unload-module 8
 
 exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
+exec pulseaudio --kill
+exec pulseaudio --start
+
+
 include /etc/sway/config.d/*
 
