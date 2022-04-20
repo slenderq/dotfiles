@@ -258,6 +258,9 @@ bindsym $mod+q exec shotman area
 # Mako shortcuts
 bindsym $mod+c exec makoctl dismiss
 
+# Open new dev container window
+bindsym $mod+y exec alacritty -e devcontain
+
     #position top
 
     # When the status_command prints a new line to stdout, swaybar updates.
