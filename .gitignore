@@ -79,6 +79,8 @@ bin/.*.swp
 !.config/regolith2
 !.config/regolith2/*
 
+!backgrounds/
+!backgrounds/*
 
 # old file that still might be useful
 #Documents/*

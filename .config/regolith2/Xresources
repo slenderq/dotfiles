@@ -8,4 +8,4 @@ i3-wm.binding.launcher.app: d
 i3-wm.binding.exit_app: x
 i3-wm.binding.kill_app: Shift+x
 i3-wm.binding.layout_mode: Shift+t
-regloith.wallpaper.file: ~/background/mountain.jpg 
+regloith.wallpaper.file: home/justin/backgrounds/mountain.jpg 
