@@ -1,0 +1,2 @@
+cd ~/Synauta/development-container/.devcontainer
+sh dev-contain.sh

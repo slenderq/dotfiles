@@ -51,11 +51,11 @@ set $menu wofi -Ii --lines=10 --show=drun
 output HDMI-A-1 bg ~/Downloads/fall.jpg fill
 output DP-2 bg ~/Downloads/tex2.jpg fill
 
-output DP-2 position 0,0
+#output DP-2 position 0,0
 # output HDMI-A-1 position 
 
-workspace 1 output DP-2 
-workspace 6 output HDMI-A-1 
+workspace 6 output DP-2 
+workspace 1 output HDMI-A-1 
 focus output DP-2
 #
 # Example configuration:
@@ -232,10 +232,10 @@ mode "resize" {
     # right will grow the containers width
     # up will shrink the containers height
     # down will grow the containers height
-    bindsym $left resize shrink width 10px
-    bindsym $down resize grow height 10px
-    bindsym $up resize shrink height 10px
-    bindsym $right resize grow width 10px
+    bindsym $left resize shrink width 30px
+    bindsym $down resize grow height 30px
+    bindsym $up resize shrink height 30px
+    bindsym $right resize grow width 0px
 
     # Ditto, with arrow keys
     bindsym Left resize shrink width 10px
@@ -257,6 +257,9 @@ bindsym $mod+q exec shotman area
 
 # Mako shortcuts
 bindsym $mod+c exec makoctl dismiss
+
+# Open new dev container window
+bindsym $mod+y exec alacritty -e devcontain
 
     #position top
 

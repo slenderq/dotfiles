@@ -4,7 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/justin/.oh-my-zsh"
 export PATH="$PATH:/home/justin/Downloads/julia-1.6.0/bin"
-
+export PATH=$PATH:~/bin
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
