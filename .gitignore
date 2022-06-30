@@ -75,6 +75,13 @@ bin/.*.swp
 !.config/wofi
 !.config/wofi/*
 
+# regloith2 config
+!.config/regolith2
+!.config/regolith2/*
+
+!backgrounds/
+!backgrounds/*
+
 # old file that still might be useful
 #Documents/*
 #Downloads/*
