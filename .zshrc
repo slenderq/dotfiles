@@ -142,9 +142,8 @@ alias gb='git branch --sort=-committerdate'
 alias gprune='git branch --merged master | egrep -v "(^\*|master|dev)" | xargs git branch --delete'
 alias gfprune='git fetch origin --prune'
 
-alias edit-unmerged="!$EDITOR `git diff --name-only --diff-filter=U`"
-alias add-unmerged="!git add `git diff --name-only --diff-filter=U`"
-
+alias edit-unmerged='vim `git diff --name-only --diff-filter=UU`'
+alias add-unmerged='git add `git diff --name-only --diff-filter=UU`'
 
 # database:
 alias psqls='psql -U synautauser -h database -d synautadb'
