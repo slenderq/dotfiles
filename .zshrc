@@ -5,6 +5,8 @@
 export ZSH="/home/justin/.oh-my-zsh"
 export PATH="$PATH:/home/justin/Downloads/julia-1.6.0/bin"
 export PATH=$PATH:~/bin
+
+export EDITOR="vim"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -139,6 +141,10 @@ alias gb='git branch --sort=-committerdate'
 
 alias gprune='git branch --merged master | egrep -v "(^\*|master|dev)" | xargs git branch --delete'
 alias gfprune='git fetch origin --prune'
+
+alias edit-unmerged = "!$EDITOR `git diff --name-only --diff-filter=U`"
+alias add-unmerged = "!git add `git diff --name-only --diff-filter=U`"
+
 
 # database:
 alias psqls='psql -U synautauser -h database -d synautadb'
