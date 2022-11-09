@@ -1,0 +1,3 @@
+cd ~/Synauta/development-container/.devcontainer/
+./copy-files-dev.sh
+cd -
