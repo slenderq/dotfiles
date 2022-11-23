@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Bitbucket
+GenericName=Web Browser Link
+Keywords=Bitbucket;git;bit
+Icon=firefox
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+StartupNotify=true
+StartupWMClass=firefox
+Categories=Network;WebBrowser;
+Exec=/usr/lib/firefox/firefox --new-window https://bitbucket.org/dashboard/overview

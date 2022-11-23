@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Jira
+GenericName=Web Browser Link
+Keywords=Jira;jira;smld
+Icon=firefox
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+StartupNotify=true
+StartupWMClass=firefox
+Categories=Network;WebBrowser;
+Exec=/usr/lib/firefox/firefox --new-window https://synauta.atlassian.net/jira/software/projects/SMLD/boards/15
