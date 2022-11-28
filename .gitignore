@@ -34,9 +34,9 @@
 # The gitignore of this repository itself (!)
 !.gitignore
 
-!.local/share/applications
-!.local/share/applications/
-!.local/share/applications/*.desktop
+!~/.local/share/applications
+!~/.local/share/applications/
+!~/.local/share/applications/*.desktop
 
 # Vim plugins, ftplugins, syntax etc etc
 !.vim
