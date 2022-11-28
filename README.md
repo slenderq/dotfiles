@@ -7,4 +7,6 @@ This also includes some theming that I did.
 
 Located in `.local/share/applications/` these let me open common links with wofi
 
+https://wiki.archlinux.org/title/Desktop_entries
+
 Icons in `.icons`
