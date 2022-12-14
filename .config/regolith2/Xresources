@@ -1,11 +1,6 @@
 i3-wm.bar.position: top
-i3-wm.binding.terminal: t
-i3-wm.binding.browser: g
-i3-wm.binding.display: Shift+d
-i3-wm.binding.bluetooth: Shift+b
-i3-wm.binding.split_h: b
-i3-wm.binding.launcher.app: d
 i3-wm.binding.exit_app: x
 i3-wm.binding.kill_app: Shift+x
-i3-wm.binding.layout_mode: Shift+t
-regloith.wallpaper.file: home/justin/backgrounds/mountain.jpg 
+regloith.wallpaper.file: /home/justin/backgrounds/mountain.jpg 
+
+regolith.look.path: /usr/share/regolith-look/gruvbox

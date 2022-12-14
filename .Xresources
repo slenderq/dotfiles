@@ -1,0 +1,9 @@
+i3-wm.binding.split_h: b
+i3-wm.binding.browser: g
+i3-wm.binding.launcher.app: d
+i3-wm.program.launcher.app: ilia -p apps
+i3-wm.binding.launcher.cmd: Shift+Alt+z
+i3-wm.binding.terminal: t
+i3-wm.binding.display: Shift+d
+i3-wm.binding.layout_mode: Shift+t
+i3-wm.binding.bluetooth: Shift+b
